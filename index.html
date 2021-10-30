@@ -1,0 +1,49 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <title>Project</title>
+    </head>
+    <body>
+                <link rel='stylesheet' href='app.css'>
+
+        <div class='main'>
+            <div>
+                <label for='game' class='inline'>
+                    Game:
+                </label>
+                <p  id='round' class='inline'>
+                    0
+                </p>
+            </div>
+            <div>
+                <button id='btn'>Start Game</button>
+            </div>
+            <div id='panel-container'>
+                <div id='panel' style='border:2px  solid black;width: 20%; margin: auto;margin-bottom: 10px;min-width: 200px;'>
+                    <div class='margin'>
+                        <label for='Player1' class='inline'>
+                            Player 1 - Won:
+                        </label>
+                        <p id='P1id' class='inline'>
+                            0
+                        </p>
+                    </div>
+                    <div class='margin'>
+                        <label for='Player2' class='inline'>
+                            Player 2 - Won:
+                        </label>
+                        <p id='P2id' class='inline'>
+                            0
+                        </p>
+                    </div>
+                    
+                </div>   
+            </div>
+            <div>
+                <button id='reset'>Reset</button>
+            </div>
+        </div>
+
+        <script src='app.js'></script>
+    </body>
+</html>
